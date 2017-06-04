@@ -1,0 +1,79 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat","Avenir";
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-top: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;/*for compatibility*/
+	-moz-transition: background 0.6s;
+}
+#container {
+	margin: 20px auto; /*o mean 0 marging from the top and bottom and suto -> same size from the left and right this will made it centraliazed*/
+	max-width: 540px;
+}
+h1{
+	color: white ;
+	text-align: center;
+	line-height: 1.1;
+	text-transform: uppercase;
+	font-weight: normal;
+	background: steelblue;
+	margin: 0; /* margin 0 from top,left,bottom,right */ 
+	padding: 20px 0; /*20 px top-bottom 0 left-right*/
+	
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	transition:all 0.3s ;/*it takes two parameter,the 1st one what we want to transition(all button) and the secon what time  */
+	/*transition es para hacer el transition de cada propiedad que se cambie en all tu especifica que propiedad quieres cambiar ,pero
+	es all pq yo quiero transitionar todas las propiedades aunque tan solo estoy cambiando una(background and color changes is should take two second) */
+	-webkit-transition: all 0.6s; /*for compatibility */
+	-moz-transition: all 0.6s;	
+}
+
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
+
+
