@@ -1,1 +1,33 @@
-<h1> hola </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Color Game Project</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	 
+</head>
+<body>
+<h1>
+The Great 
+<br> <!-- br- make a new line - break something -->
+<span id = "colorDisplay">RGB</span> 
+</br> 
+Color Game 
+</h1> 
+<div id="stripe"> <!-- the dip for the toolbar --> 
+	<button id="reset">New Colors</button>
+	<span id="message" > </span> <!-- the message for try again or play again  -->
+	<button class ="mode">Easy</button>
+	<button class = "mode selected">Hard</button>
+</div>
+
+	<div id="container"> 
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div> <!-- end of div Container  -->
+<script type ="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
